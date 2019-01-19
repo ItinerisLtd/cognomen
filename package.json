@@ -1,7 +1,18 @@
 {
   "name": "@itinerisltd/cognomen",
   "version": "0.0.0",
-  "author": "Tang Rufus @TangRufus",
+  "author": {
+    "name": "Tang Rufus",
+    "email": "tangrufus@gmail.com",
+    "url": "https://typist.tech"
+  },
+  "contributors": [
+    {
+      "name": "Itineris Limited",
+      "email": "hello@itineris.co.uk",
+      "url": "https://itineris.co.uk"
+    }
+  ],
   "bin": {
     "cognomen": "./bin/run"
   },
@@ -14,15 +25,13 @@
   },
   "devDependencies": {
     "@oclif/tslint": "^3",
-    "@types/chai": "^4",
-    "@types/mocha": "^5",
     "@types/node": "^10",
     "ts-node": "^7",
     "tslint": "^5",
     "typescript": "^3.2"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=10.0.0"
   },
   "files": [
     "/bin",
@@ -30,7 +39,14 @@
   ],
   "homepage": "https://github.com/itinerisltd/cognomen",
   "keywords": [
-    "oclif"
+    "bedrock",
+    "cognomen",
+    "composer",
+    "oclif",
+    "trellis",
+    "wordpress-plugin",
+    "wordpress",
+    "wp-cli"
   ],
   "license": "MIT",
   "main": "lib/index.js",
@@ -41,7 +57,9 @@
   "scripts": {
     "posttest": "tslint -p . -t stylish",
     "prepack": "rm -rf lib && tsc -b",
-    "test": "echo NO TESTS"
+    "test": "echo NO TESTS",
+    "version": "npx doctoc README.md && git add README.md",
+    "release": "npx np && github_changelog_generator && git add CHANGELOG.md && git commit -m 'github_changelog_generator' && git push origin master"
   },
   "types": "lib/index.d.ts"
 }

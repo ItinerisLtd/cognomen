@@ -1,0 +1,14 @@
+# https://github.com/ItinerisLtd/cognomen
+
+---
+- hosts: web:&{{ env }}
+  connection: local
+  gather_facts: false
+  tasks:
+    - copy:
+        src: ".cognomen/{{ item.key }}/wp-cli.cognomen.yml"
+        dest: "{{ item.value.local_path }}/wp-cli.cognomen.yml"
+        mode: '0644'
+        force: yes
+        decrypt: no
+      with_dict: "{{ wordpress_sites }}"

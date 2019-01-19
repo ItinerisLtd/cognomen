@@ -1,0 +1,17 @@
+# https://github.com/ItinerisLtd/cognomen
+
+---
+- hosts: web:&{{ env }}
+  connection: local
+  gather_facts: false
+  tasks:
+    - file:
+        path: ".cognomen/{{ item.key }}"
+        state: directory
+        mode: '0755'
+      with_dict: "{{ wordpress_sites }}"
+    - template:
+        src: "{{ cognomen_alias_j2 }}"
+        dest: ".cognomen/{{ item.key }}/wp-cli.{{ env }}.yml.part"
+        mode: '0644'
+      with_dict: "{{ wordpress_sites }}"

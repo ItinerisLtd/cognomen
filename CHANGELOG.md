@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.1.1](https://github.com/ItinerisLtd/cognomen/tree/v0.1.1) (2019-01-20)
+[Full Changelog](https://github.com/ItinerisLtd/cognomen/compare/v0.1.0...v0.1.1)
+
+**Merged pull requests:**
+
+- Create LICENSE [\#2](https://github.com/ItinerisLtd/cognomen/pull/2) ([TangRufus](https://github.com/TangRufus))
+
 ## [v0.1.0](https://github.com/ItinerisLtd/cognomen/tree/v0.1.0) (2019-01-19)
 **Merged pull requests:**
 

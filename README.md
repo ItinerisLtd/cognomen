@@ -94,6 +94,10 @@ OPTIONS
 
 ## FAQ
 
+### Why should I use `cognomen`?
+
+See: https://github.com/ItinerisLtd/cognomen/issues/3#issuecomment-456563138
+
 ### `Error: Alias '@xxx' not found.`
 
 Add these lines to `<bedrock>/wp-cli.yml` or `<bedrock>/wp-cli.local.yml`:

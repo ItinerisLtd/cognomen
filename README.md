@@ -88,8 +88,7 @@ OPTIONS
   -l, --local=local      (required) [default: development] local environment
                          name
 
-  -r, --remotes=remotes  (required) [default: staging,production]
-                         comma-separated list of remote environment names
+  -r, --remotes=remotes  comma-separated list of remote environment names
 
   -v, --version          show CLI version
 ```

@@ -1,5 +1,21 @@
 # Change Log
 
+## [v0.2.0](https://github.com/ItinerisLtd/cognomen/tree/v0.2.0) (2019-01-27)
+[Full Changelog](https://github.com/ItinerisLtd/cognomen/compare/v0.1.1...v0.2.0)
+
+**Closed issues:**
+
+- Warn about multiple web servers [\#6](https://github.com/ItinerisLtd/cognomen/issues/6)
+- Auto detect remote enviroments [\#5](https://github.com/ItinerisLtd/cognomen/issues/5)
+- Why should I use cognomen? [\#3](https://github.com/ItinerisLtd/cognomen/issues/3)
+
+**Merged pull requests:**
+
+- yarn upgrade [\#9](https://github.com/ItinerisLtd/cognomen/pull/9) ([TangRufus](https://github.com/TangRufus))
+- Auto-detect remote enviroments [\#8](https://github.com/ItinerisLtd/cognomen/pull/8) ([TangRufus](https://github.com/TangRufus))
+- Ensure `run\_once` per enviroment [\#7](https://github.com/ItinerisLtd/cognomen/pull/7) ([TangRufus](https://github.com/TangRufus))
+- Update README.md [\#4](https://github.com/ItinerisLtd/cognomen/pull/4) ([TangRufus](https://github.com/TangRufus))
+
 ## [v0.1.1](https://github.com/ItinerisLtd/cognomen/tree/v0.1.1) (2019-01-20)
 [Full Changelog](https://github.com/ItinerisLtd/cognomen/compare/v0.1.0...v0.1.1)
 

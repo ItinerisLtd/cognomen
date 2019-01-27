@@ -16,7 +16,6 @@
 - [Usage](#usage)
   - [Options](#options)
 - [FAQ](#faq)
-  - [Why should I use `cognomen`?](#why-should-i-use-cognomen)
   - [`Error: Alias '@xxx' not found.`](#error-alias-xxx-not-found)
   - [What if I have a multiple web server setup?](#what-if-i-have-a-multiple-web-server-setup)
   - [Can I change default flag values via environment variables?](#can-i-change-default-flag-values-via-environment-variables)
@@ -36,7 +35,9 @@
 
 Generate WP CLI aliases for [Trellis](https://github.com/roots/trellis/) projects.
 
-Learn more on [Running Commands Remotely - WP-CLI — WordPress](https://make.wordpress.org/cli/handbook/running-commands-remotely/).
+Learn more on:
+- [Running Commands Remotely - WP-CLI — WordPress](https://make.wordpress.org/cli/handbook/running-commands-remotely/)
+- [Why should I use `cognomen`?](https://github.com/ItinerisLtd/cognomen/issues/3#issuecomment-456563138)
 
 ## Requirements
 
@@ -94,10 +95,6 @@ OPTIONS
 ```
 
 ## FAQ
-
-### Why should I use `cognomen`?
-
-See: https://github.com/ItinerisLtd/cognomen/issues/3#issuecomment-456563138
 
 ### `Error: Alias '@xxx' not found.`
 

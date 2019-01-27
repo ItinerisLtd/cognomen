@@ -10,8 +10,10 @@
         state: directory
         mode: '0755'
       with_dict: "{{ wordpress_sites }}"
+      run_once: true
     - template:
         src: "{{ cognomen_alias_j2 }}"
         dest: ".cognomen/{{ item.key }}/wp-cli.{{ env }}.yml.part"
         mode: '0644'
       with_dict: "{{ wordpress_sites }}"
+      run_once: true

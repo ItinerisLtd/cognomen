@@ -12,3 +12,4 @@
         force: yes
         decrypt: no
       with_dict: "{{ wordpress_sites }}"
+      run_once: true

@@ -16,7 +16,9 @@
 - [Usage](#usage)
   - [Options](#options)
 - [FAQ](#faq)
+  - [Why should I use `cognomen`?](#why-should-i-use-cognomen)
   - [`Error: Alias '@xxx' not found.`](#error-alias-xxx-not-found)
+  - [What if I have a multiple web server setup?](#what-if-i-have-a-multiple-web-server-setup)
   - [Can I change default flag values via environment variables?](#can-i-change-default-flag-values-via-environment-variables)
   - [Can I install `cognomen` instead of using `$ npx`?](#can-i-install-cognomen-instead-of-using--npx)
   - [Why don't you make an Ansible Galaxy role instead?](#why-dont-you-make-an-ansible-galaxy-role-instead)
@@ -105,6 +107,10 @@ Add these lines to `<bedrock>/wp-cli.yml` or `<bedrock>/wp-cli.local.yml`:
 _:
   inherit: wp-cli.cognomen.yml
 ```
+
+### What if I have a multiple web server setup?
+
+Only 1 alias is generated per enviroment even if you have [a multiple web server setup](https://discourse.roots.io/t/best-practice-for-multiple-sites-on-multiple-servers/5385). Under the hood, `cogomen` use [anisble `run_once` option](https://docs.ansible.com/ansible/latest/user_guide/playbooks_delegation.html#run-once) to achive that.
 
 ### Can I change default flag values via environment variables?
 

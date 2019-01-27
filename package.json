@@ -1,7 +1,7 @@
 {
   "name": "@itinerisltd/cognomen",
   "description": "Generate WP CLI aliases for Trellis projects",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": {
     "name": "Tang Rufus",
     "email": "tangrufus@gmail.com",

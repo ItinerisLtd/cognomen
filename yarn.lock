@@ -230,9 +230,9 @@ clean-stack@^2.0.0:
   integrity sha512-VEoL9Qh7I8s8iHnV53DaeWSt8NJ0g3khMfK6NiCPB7H657juhro+cSw2O88uo3bo0c0X5usamtXk0/Of0wXa5A==
 
 cli-ux@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-5.0.0.tgz#62dd504d92cb5e4d03c63b67bf76f049046e8bdc"
-  integrity sha512-oW3MsKNPYG3PT2DUEs+dAMaackpzO0bof6JTdqk2SEch+pww93C+3hpXKvSycMPBEgjGPkJ3tl39VkebrkckAA==
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-5.3.0.tgz#6f6183e03a2b765fb1d973af484d5a47775d2a9c"
+  integrity sha512-4iNRnT85aX6DP7TmwoM2zycHQt8S2i0R/7tAqnfNWVDOM04b2E9hxbYsidCx1p8+xTM6wLZSOVHP+lvclHAXpQ==
   dependencies:
     "@oclif/command" "^1.5.1"
     "@oclif/errors" "^1.2.1"
@@ -244,16 +244,16 @@ cli-ux@^5.0.0:
     chalk "^2.4.1"
     clean-stack "^2.0.0"
     extract-stack "^1.0.0"
-    fs-extra "^7.0.0"
+    fs-extra "^7.0.1"
     hyperlinker "^1.0.0"
     indent-string "^3.2.0"
     is-wsl "^1.1.0"
     lodash "^4.17.11"
-    natural-orderby "^1.0.2"
-    password-prompt "^1.0.7"
+    natural-orderby "^2.0.1"
+    password-prompt "^1.1.2"
     semver "^5.6.0"
-    string-width "^2.1.1"
-    strip-ansi "^5.0.0"
+    string-width "^3.1.0"
+    strip-ansi "^5.1.0"
     supports-color "^5.5.0"
     supports-hyperlinks "^1.0.1"
     treeify "^1.1.0"
@@ -542,10 +542,10 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
   integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
 
-natural-orderby@^1.0.2:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/natural-orderby/-/natural-orderby-1.1.1.tgz#26a0d6bab64595297cfeaf7c2fc3e055f882b481"
-  integrity sha512-WM3K4I9eKgn8tXcx5iR4/UYXFCnKOWUvKPkWRzGS/WIHleqoVBeL+8hArQsULl0unH87c2Kgg/usM2UMAuz8gw==
+natural-orderby@^2.0.1:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/natural-orderby/-/natural-orderby-2.0.3.tgz#8623bc518ba162f8ff1cdb8941d74deb0fdcc016"
+  integrity sha512-p7KTHxU0CUrcOXe62Zfrb5Z13nLvPhSWR/so3kFulUQU0sgUll2Z0LwpsLN351eOOD+hRGu/F1g+6xDfPeD++Q==
 
 nice-try@^1.0.4:
   version "1.0.5"
@@ -571,10 +571,10 @@ p-finally@^1.0.0:
   resolved "https://registry.yarnpkg.com/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
   integrity sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=
 
-password-prompt@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/password-prompt/-/password-prompt-1.0.7.tgz#8e27748d3400bc9c9140d5ade705dfb7aeb7d91a"
-  integrity sha1-jid0jTQAvJyRQNWt5wXft6632Ro=
+password-prompt@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/password-prompt/-/password-prompt-1.1.2.tgz#85b2f93896c5bd9e9f2d6ff0627fa5af3dc00923"
+  integrity sha512-bpuBhROdrhuN3E7G/koAju0WjVw9/uQOG5Co5mokNj0MiOSBVZS1JTwM4zl55hu0WFmIEFvO9cU9sJQiBIYeIA==
   dependencies:
     ansi-escapes "^3.1.0"
     cross-spawn "^6.0.5"
@@ -669,7 +669,7 @@ string-width@^2.1.1:
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^4.0.0"
 
-string-width@^3.0.0:
+string-width@^3.0.0, string-width@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-3.1.0.tgz#22767be21b62af1081574306f69ac51b62203961"
   integrity sha512-vafcv6KjVZKSgz06oM/H6GDBrAtz8vdhQakGjFIvNrHA6y3HCF1CInLy+QLq8dTJPQ1b+KDUqDFctkdRW44e1w==

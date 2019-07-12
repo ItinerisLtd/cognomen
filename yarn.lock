@@ -231,9 +231,9 @@ clean-stack@^2.0.0:
   integrity sha512-VEoL9Qh7I8s8iHnV53DaeWSt8NJ0g3khMfK6NiCPB7H657juhro+cSw2O88uo3bo0c0X5usamtXk0/Of0wXa5A==
 
 cli-ux@^5.0.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-5.3.0.tgz#6f6183e03a2b765fb1d973af484d5a47775d2a9c"
-  integrity sha512-4iNRnT85aX6DP7TmwoM2zycHQt8S2i0R/7tAqnfNWVDOM04b2E9hxbYsidCx1p8+xTM6wLZSOVHP+lvclHAXpQ==
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-5.3.1.tgz#3bed8b37c44b03a5d1b9d71d39a69a919a101835"
+  integrity sha512-l2MXbitx0FjtHKSbHytuxfxWv6MdWBRh23ItRJjU17cjj0dqZxfAL863tzbR1FIs7jccPllPUvn3QWK6BQg3Pg==
   dependencies:
     "@oclif/command" "^1.5.1"
     "@oclif/errors" "^1.2.1"

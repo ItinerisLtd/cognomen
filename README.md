@@ -1,3 +1,12 @@
+**This project has been [ported to roots/trellis-cli](https://github.com/roots/trellis-cli/pull/52) and been abandoned.**
+
+Use [roots/trellis-cli](https://github.com/roots/trellis-cli) instead and checkout similar tools by:
+
+- [Itineris](https://github.com/ItinerisLtd)
+- [TangRufus](https://github.com/typisttech)
+
+---
+
 # cognomen
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)

@@ -54,6 +54,11 @@ class ItinerisltdCognomen extends Command {
     const {local} = flags
     let {remotes = null} = flags
 
+    this.warn(`This project has been ported to roots/trellis-cli#52 (https://github.com/roots/trellis-cli/pull/52) and been abandoned. Use roots/trellis-cli instead and checkout similar tools by:
+      - Itineris: https://github.com/ItinerisLtd
+      - TangRufus: https://github.com/typisttech
+    `)
+
     cli.action.start('Detecting remotes')
     let remoteHosts: string[] = []
     if (remotes === null) {
@@ -102,6 +107,14 @@ class ItinerisltdCognomen extends Command {
     this.log('')
     this.log('_:')
     this.log('  inherit: wp-cli.cognomen.yml')
+  
+    this.log('')
+    this.log('')
+    this.log('')
+    this.warn(`This project has been ported to roots/trellis-cli#52 (https://github.com/roots/trellis-cli/pull/52) and been abandoned. Use roots/trellis-cli instead and checkout similar tools by:
+      - Itineris: https://github.com/ItinerisLtd
+      - TangRufus: https://github.com/typisttech
+    `)
   }
 }
 

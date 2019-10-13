@@ -107,7 +107,7 @@ class ItinerisltdCognomen extends Command {
     this.log('')
     this.log('_:')
     this.log('  inherit: wp-cli.cognomen.yml')
-  
+
     this.log('')
     this.log('')
     this.log('')
